@@ -73,7 +73,8 @@ sudo ./scripts/setup.sh
 It may take time to install due to installing Nvidia GPU drivers
 However, you can install some dependecies manually:
 
-`\\ Execute command lines one by one
+```
+\\ Execute command lines one by one
 
 # Install rustup:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -127,4 +128,4 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 cargo install just
 just --version
-`
+```
