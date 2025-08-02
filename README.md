@@ -1,6 +1,6 @@
 # Boundless Prover Node
 
-![Boundless Logo](https://github.com/shixsik/boundless/raw/main/assets/logo.png)
+![Boundless Logo](https://github.com/shixsik/boundless/logo.jpg)
 
 The Boundless Prover Node is a high-performance computational proving system that participates in the Boundless decentralized proving market.
 
