@@ -9,14 +9,6 @@ The Boundless Prover Node is a high-performance computational proving system tha
   - [Hardware](#hardware)
   - [Software](#software)
 - [How Boundless Prover Market Works](#how-boundless-prover-market-works)
-- [Installation](#installation)
-  - [Quick Setup](#quick-setup)
-  - [Manual Installation](#manual-installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
-- [Support](#support)
-- [License](#license)
 
 ## Requirements
 
@@ -44,9 +36,5 @@ The Boundless Prover Node is a high-performance computational proving system tha
    - Valid proofs → rewards
    - Invalid/late proofs → slashing
 
-## Installation
 
-### Quick Setup
-For Ubuntu 22.04:
-```bash
-sudo ./scripts/setup.sh
+
