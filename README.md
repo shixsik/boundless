@@ -87,8 +87,7 @@ For a quick set up of Boundless dependencies on Ubuntu 22.04 LTS, you can run:
 
 However, you can install some dependecies manually:
 
-```
-\\ Execute command lines one by one
+```\\ Execute command lines one by one
 
 # Install rustup:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -141,5 +140,4 @@ boundless -h
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 cargo install just
-just --version
-```
+just --version```
