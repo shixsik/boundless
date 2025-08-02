@@ -1,2 +1,2 @@
-# boundless
+# Boundless Prover Guide
 Boundless Prover Guide
