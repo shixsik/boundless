@@ -55,22 +55,36 @@ Install & Update Packages
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev tar clang bsdmainutils ncdu unzip libleveldb-dev libclang-dev ninja-build -y
 Clone Boundless Repo
-git clone https://github.com/boundless-xyz/boundless
+
+```git clone https://github.com/boundless-xyz/boundless
+
 cd boundless
-git checkout release-0.13
-Install Dependecies
-To run a Boundless prover, you'll need the following dependencies:
+
+git checkout release-0.13```
+
+### Install Dependecies
+
+`To run a Boundless prover, you'll need the following dependencies:`
 
 Docker compose
+
 GPU Drivers
+
 Docker Nvidia Support
+
 Rust programming language
+
 Just command runner
+
 CUDA Tollkit
+
+
 For a quick set up of Boundless dependencies on Ubuntu 22.04 LTS, you can run:
 
-sudo ./scripts/setup.sh
-It may take time to install due to installing Nvidia GPU drivers
+`sudo ./scripts/setup.sh`
+
+**It may take time to install due to installing Nvidia GPU drivers**
+
 However, you can install some dependecies manually:
 
 ```
