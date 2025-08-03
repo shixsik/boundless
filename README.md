@@ -9,6 +9,7 @@ The Boundless Prover Node is a high-performance computational proving system tha
   - [Hardware](#hardware)
   - [Software](#software)
 - [How Boundless Prover Market Works](#how-boundless-prover-market-works)
+- [Increasing Lock-in Rate](#Increasing-Lock-in-Rate)
 
 ## Requirements
 
@@ -40,16 +41,18 @@ The Boundless Prover Node is a high-performance computational proving system tha
 
 Once your broker is running, before the gpu-based prover gets into work, broker must compete with other provers to lock-in the orders. Here is how to optimize broker to lock-in faster than other provers:
 
-1. Decreasing the mcycle_price would tune your Broker to bid at lower prices for proofs.
+Decreasing the `mcycle_price` would tune your Broker to bid at lower prices for proofs.
    
 Once an order detected, the broker runs a preflight execution to estimate how many cycles the request needs. As you see in the image, a prover proved orders with millions or thousands of cycles.
 
 `mcycle_price` is actually price of a prover for proving each 1 million cycles. Final price = `mcycle_price` x `cycles`
 
+
 The less you set `mcycle_price`, the higher chance you outpace other provers.
 
+
 To get idea of what `mcycle_price` are other provers using, find an order in explorer with your prefered network, go to details page of the order and look for ETH per Megacycle
-image
+
 
 Increasing `lockin_priority_gas` to consume more gas to outrun other bidders.
 
